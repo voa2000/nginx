@@ -1,4 +1,5 @@
 #!/bin/ruby
+
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/bionic64" # officially published image
 
@@ -20,6 +21,6 @@ Vagrant.configure("2") do |config|
     # Install Ansible, Packer, Docker, Git, Terraform and Kubernetes
     provisioner.vm.provision "shell", inline: "sudo apt-get update"
     provisioner.vm.provision "shell", inline: "sudo apt-get install linuxbrew-wrapper -y"
-
+    # provisioner.vm.provision "shell", inline: "brew install nginx"
   end
 end
