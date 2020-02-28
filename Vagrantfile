@@ -19,7 +19,7 @@ Vagrant.configure("2") do |config|
   config.vm.define :provisioner do |provisioner|
     # Install Ansible, Packer, Docker, Git, Terraform and Kubernetes
     provisioner.vm.provision "shell", inline: "sudo apt-get update"
-    provisioner.vm.provision "shell", inline: "sudo apt-get install linuxbrew-wrapper"
-    provisioner.vm.provision "shell", inline: "sudo brew install nginx -y"
+    provisioner.vm.provision "shell", inline: "sudo apt-get install linuxbrew-wrapper -y"
+
   end
 end
