@@ -1,3 +1,4 @@
 # Nginx with Docker Swarm
 ### Install Docker
- ### Install Nginx 
+### Install Nginx 
+### Nginx. Conf
