@@ -1,5 +1,7 @@
-# Nginx with Docker Swarm
-### Install Docker
-### Install Nginx 
-### Nginx. Conf
-### php
+# Nginx
+Install nginx ``` brew install nginx```
+
+Remove default nginx.conf file from /usr/local/etc/nginx
+
+Create your own config file.
+
