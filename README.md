@@ -9,7 +9,7 @@ Create your own config file.
 
 1. ```nginx``` to start the nginx server
 2. ```nginx -s stop ``` to stop the nginx server
-3.  ```nginx -s reload ``` to reload the changes made on the nginx server
+3. ```nginx -s reload ``` to reload the changes made on the nginx server
 
 ### Important info
 https://my.noip.com/ To mask your ip address
