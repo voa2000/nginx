@@ -1,9 +1,7 @@
 # Nginx
-Install nginx ``` brew install nginx```
-
-Remove default nginx.conf file from /usr/local/etc/nginx
-
-Create your own config file.
+1. Install nginx ``` brew install nginx```
+2. Remove default nginx.conf file from /usr/local/etc/nginx
+3. Create your own config file.
 
 ### nginx commands
 
