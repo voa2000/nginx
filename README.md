@@ -3,7 +3,7 @@
 2. Remove default nginx.conf file from /usr/local/etc/nginx
 3. Create your own config file.
 
-### nginx commands
+### Nginx commands
 
 1. ```nginx``` to start the nginx server. 
 2. ```nginx -s stop ``` to stop the nginx server. 
